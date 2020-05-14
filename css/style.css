@@ -1,92 +1,99 @@
             @charset "UTF-8";
-
             @font-face {
                 font-family: 'roboto-regular';
                 src: url('fonts/roboto-regular-webfont.eot');
-                src: url('fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
-                    url('fonts/roboto-regular-webfont.woff') format('woff'),
-                    url('fonts/roboto-regular-webfont.ttf') format('truetype'),
-                    url('fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+                src: url('fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/roboto-regular-webfont.woff') format('woff'), url('fonts/roboto-regular-webfont.ttf') format('truetype'), url('fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
                 font-weight: normal;
                 font-style: normal;
             }
-
             /*-------------------------------------------------------Estilo Universal----------------------------------------->>>>>>>>>*/
-            *{
+            
+            * {
                 margin: 0;
                 padding: 0;
                 list-style: none;
                 font-family: 'roboto-regular';
                 box-sizing: border-box;
             }
-
-            div, p, b, strong, span, li, a, sup{
+            
+            div,
+            p,
+            b,
+            strong,
+            span,
+            li,
+            a,
+            sup {
                 font-size: 16px;
             }
-            h2{
+            
+            h2 {
                 font-size: 2.25rem;
             }
-
             /*------------------------------------------------Header-------------------------------------->>>*/
+            
             header {
                 background: #ffffff;
                 width: 100%;
-                box-shadow: rgba(0,0,0,0.2) 2px 2px 3px;
+                box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px;
             }
-
+            
             .superior {
                 background-color: #3fbbc0;
                 width: 100%;
             }
-
-            .contenedor{
+            
+            .contenedor {
                 width: 1170px;
                 margin: auto;
-                font-size: 0; 
+                font-size: 0;
             }
-
+            
             .superior p {
                 display: inline-block;
                 width: 50%;
                 font-size: 16px;
                 padding: 15px 10px 20px;
-                color:#fff;
+                color: #fff;
                 font-weight: 700;
             }
-
+            
             .numero-contacto {
                 text-align: right;
             }
-
+            
             .inferior {
                 width: 100%;
                 background-color: #ffffff;
                 padding: 15px 0;
             }
-
-            .logo, nav, nav ul li {
+            
+            .logo,
+            nav,
+            nav ul li {
                 display: inline-block;
                 vertical-align: middle;
                 position: relative;
             }
-
+            
             .logo {
                 width: 20%;
             }
-
+            
             .logo img {
-                width:100%;
-                max-width:150px;
+                width: 100%;
+                max-width: 150px;
             }
-              /*----------------------------------------Barra de navegacion--------------------------------------------->>>>>*/
+            /*----------------------------------------Barra de navegacion--------------------------------------------->>>>>*/
+            
             nav {
                 width: 80%;
             }
-
+            
             nav ul {
                 text-align: right;
             }
-
+            
             nav ul li a,
             .sub-menu li a {
                 color: #666666;
@@ -98,13 +105,13 @@
                 letter-spacing: 1px;
                 display: block;
             }
-
+            
             nav ul li a:hover,
             .sub-menu li a:hover {
-                color:#3fbbc0;
+                color: #3fbbc0;
             }
-
-            nav > ul > li:last-child:after{
+            
+            nav>ul>li:last-child:after {
                 content: "";
                 border-top: 5px solid #666666;
                 border-left: 3px solid transparent;
@@ -113,11 +120,11 @@
                 top: 21px;
                 right: 13px;
             }
-
-            nav > ul > li:hover:last-child:after{
+            
+            nav>ul>li:hover:last-child:after {
                 border-top: 5px solid #3fbbc0;
             }
-
+            
             nav ul li:last-child span {
                 background-color: #e9372e;
                 color: #ffffff;
@@ -128,12 +135,12 @@
                 right: -8px;
                 top: -10px;
             }
-
+            
             .sub-menu {
                 display: none;
             }
-
-            nav > ul > li:hover:last-child .sub-menu{
+            
+            nav>ul>li:hover:last-child .sub-menu {
                 display: block;
                 position: absolute;
                 background-color: #ffffff;
@@ -141,16 +148,16 @@
                 text-align: left;
                 top: 63px;
                 right: 0;
-                border: 1px solid rgba(0,0,0,0.15);
-                box-shadow: 0 6px 12px rgba(0,0,0,.175);
+                border: 1px solid rgba(0, 0, 0, 0.15);
+                box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
             }
-
-            .sub-menu li{
+            
+            .sub-menu li {
                 display: block;
             }
-
             /*-------------------------------------------------Banner principla----------------------------------------------->>>>>>>>*/
-            .banner-principal{
+            
+            .banner-principal {
                 background-image: url('../img/bg-1.jpg');
                 background-size: 100%;
                 background-repeat: no-repeat;
@@ -158,95 +165,105 @@
                 min-height: 60vh;
                 position: relative;
             }
+            
             .info-banner {
                 width: 100%;
                 position: relative;
                 padding: 48px 0 0;
             }
-            .info-banner h2{
-                font-size:2.25rem;
-                color: #666666; 
+            
+            .info-banner h2 {
+                font-size: 2.25rem;
+                color: #666666;
             }
-          
-            .info-banner p{
+            
+            .info-banner p {
                 font-size: 1.75rem;
                 color: #666666;
             }
-            .datos{
+            
+            .datos {
                 width: 50%;
-                background-color:rgba(255,255,255,0.8);
+                background-color: rgba(255, 255, 255, 0.8);
                 margin: 30px 0 0;
                 padding: 10px;
                 border-radius: 5px;
-                
             }
-            .datos ul li{
-                margin:0 0 20px;
+            
+            .datos ul li {
+                margin: 0 0 20px;
                 padding: 0 0 0 50px;
                 position: relative;
             }
-         
-            .datos ul li:before{
-                content:"";
+            
+            .datos ul li:before {
+                content: "";
                 background-image: url('../img/iconos/check.svg');
                 background-repeat: no-repeat;
                 width: 30px;
                 height: 30px;
                 position: absolute;
                 left: 4px;
-                top:7px ;
-             
+                top: 7px;
             }
-            .datos ul li:last-child{
+            
+            .datos ul li:last-child {
                 text-align: right;
             }
-            .datos ul li:last-child::before{
+            
+            .datos ul li:last-child::before {
                 content: none;
-           }
-           .datos ul li:last-child a{
-            color: white;
-            padding: 12px 35px 12px 25px;
-            background-color: #3fbbc0;
-            background-image: url('../img/iconos/flecha-boton.svg');
-            background-repeat: no-repeat;
-            border-radius: 10px;
-            background-size: 15px;
-            background-position:87% center ;
-            text-decoration: none;
-            display:inline-block;
-            text-transform: uppercase;
-            font-weight: 700;
-            transition: 0.3s;
-           }
-           .datos ul li:last-child a:hover{
-               background-position: 95%;
-           } 
-          
-            .banner-principal{
+            }
+            
+            .datos ul li:last-child a {
+                color: white;
+                padding: 12px 35px 12px 25px;
+                background-color: #3fbbc0;
+                background-image: url('../img/iconos/flecha-boton.svg');
+                background-repeat: no-repeat;
+                border-radius: 10px;
+                background-size: 15px;
+                background-position: 87% center;
+                text-decoration: none;
+                display: inline-block;
+                text-transform: uppercase;
+                font-weight: 700;
+                transition: 0.3s;
+            }
+            
+            .datos ul li:last-child a:hover {
+                background-position: 95%;
+            }
+            
+            .banner-principal {
                 position: relative;
             }
-            .banner-principal img{
-            width: 30%;
-            position: absolute;
-            top:5px;
-            bottom:-120px;
-            right:-100px;
-            left: 900px;
+            
+            .banner-principal img {
+                width: 30%;
+                position: absolute;
+                top: 5px;
+                bottom: -120px;
+                right: -100px;
+                left: 900px;
             }
             /*-------------------------------Seccion caracteristicas----------------------->>>>>>>>>>>*/
-            .caracteristicas{
-                width: 100%;    
+            
+            .caracteristicas {
+                width: 100%;
             }
-            .caracteristicas article{   
-                width:24%;
-                display:inline-block;
+            
+            .caracteristicas article {
+                width: 24%;
+                display: inline-block;
                 vertical-align: top;
                 padding: 25px;
                 text-align: center;
                 margin: 70px 0;
                 font-family: Arial, Helvetica, sans-serif;
             }
-            .caracteristicas article .cont-ico{
+            
+            .caracteristicas article .cont-ico {
                 background-color: #3fbbc0;
                 border-radius: 50%;
                 padding: 18px;
@@ -255,14 +272,14 @@
                 height: 80px;
                 margin: 0 0 30px;
             }
-      
-            .caracteristicas h3{
+            
+            .caracteristicas h3 {
                 font-family: Arial, Helvetica, sans-serif;
                 font-size: large;
-                margin:10px 0;
-
+                margin: 10px 0;
             }
-            .libros{
+            
+            .libros {
                 width: 90%;
                 background-color: rgb(246, 245, 248);
                 margin: 0;
@@ -274,9 +291,9 @@
                 padding-right: 10px;
                 margin: 0 auto;
                 position: relative;
-
             }
-            .libros a{
+            
+            .libros a {
                 padding: 10px 10px 10px 10px;
                 background-color: #3fbbc0;
                 color: white;
@@ -287,106 +304,107 @@
                 top: 50px;
                 right: 30px;
                 text-decoration: none;
-            
             }
+            
             .items-libros {
                 width: 100%;
                 position: relative;
                 font-size: 0;
             }
-
-            .items-libros img{
-               display: inline-block;
-               width: 50%;
-               vertical-align: top;
-           
+            
+            .items-libros img {
+                display: inline-block;
+                width: 50%;
+                vertical-align: top;
             }
-            .items-libros ul{
+            
+            .items-libros ul {
                 display: inline-block;
                 width: 25%;
                 vertical-align: top;
             }
-            .items-libros ul li a img{
+            
+            .items-libros ul li a img {
                 display: inline-block;
                 width: 20%;
                 vertical-align: top;
             }
-       
-         
+            
             .items-libros ul li a {
                 display: block;
                 font-size: 0;
-                
             }
+            
             .items-libros ul li {
-               margin-bottom: 50px;
-               margin-top: 20px;
+                margin-bottom: 50px;
+                margin-top: 20px;
             }
-            .cont-contenido{
+            
+            .cont-contenido {
                 display: inline-block;
                 vertical-align: top;
                 width: 80%;
                 padding: 0 10px;
-                
             }
+            
             .cont-contenido h4 {
                 margin-bottom: 5px;
                 font-family: Arial, Helvetica, sans-serif;
-                font-size: large; 
+                font-size: large;
             }
-
-        /*--------------------seccion doctores--------------------------------->>>>>>>>>>>>>........*/
-           
-         
-            .doctores{
+            /*--------------------seccion doctores--------------------------------->>>>>>>>>>>>>........*/
+            
+            .doctores {
                 /* width: 100%;
               
                 position: relative; */
             }
-        /*--------------------seccion instalaciones--------------------------------->>>>>>>>>>>>>........*/
-            .contenedor > h2, .contenedor > p {
-              text-align: center;
+            /*--------------------seccion instalaciones--------------------------------->>>>>>>>>>>>>........*/
+            
+            .contenedor>h2,
+            .contenedor>p {
+                text-align: center;
             }
-            .instalaciones{
+            
+            .instalaciones {
                 width: 100%;
                 position: relative;
-               
             }
-            .instalaciones .contenedor> p:after,
-            .paquetes .contenedor > p:after,
-            .asociados .contenedor> p:after,
-            .doctores .contenedor> p:after{
+            
+            .instalaciones .contenedor>p:after,
+            .paquetes .contenedor>p:after,
+            .asociados .contenedor>p:after,
+            .doctores .contenedor>p:after {
                 content: "";
                 width: 60px;
                 height: 2px;
-                background-color:#666666;
+                background-color: #666666;
                 display: block;
                 margin: 25px auto;
             }
-            .instalaciones .contenedor> p,
-            .paquetes .contenedor > p,
-            .asociados .contenedor> p,
-            .doctores .contenedor> p{
+            
+            .instalaciones .contenedor>p,
+            .paquetes .contenedor>p,
+            .asociados .contenedor>p,
+            .doctores .contenedor>p {
                 margin: 25px;
             }
+            
             .contador-rotador {
                 width: 60%;
                 margin: auto;
                 padding-right: 70px;
-              
             }
-                
+            
             .doctor-img {
-               display: flex;
+                display: flex;
                 width: 100%;
-              
-              
             }
-            .doctor-img, img{
-                width: 45%;      
+            
+            .doctor-img,
+            img {
+                width: 45%;
             }
-          
-
             /* .instalaciones  h2 p{
                 text-align: center;
             }
@@ -433,14 +451,3 @@
                 background-color: rgba(225,225,225,0.8);
             }
  */
-
-
-
-                
-         
-               
-
-         
-            
-
-            
