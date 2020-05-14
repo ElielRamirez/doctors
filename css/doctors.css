@@ -1,0 +1,88 @@
+/*--------------------seccion doctores--------------------------------->>>>>>>>>>>>>........*/
+
+.doctores {
+    width: 100%;
+    position: relative;
+    background: rgba(212, 212, 212, .5);
+    padding-bottom: 64px;
+}
+
+.doctor-img {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-content: space-between; */
+    justify-content: space-between;
+    margin: 0 12px;
+}
+
+.doctor-img .doctor-info {
+    /* display: inline-block; */
+    width: 22%;
+    /* margin-left: 2%;
+    margin-right: 2%; */
+    text-align: center;
+}
+
+.doctor-info img {
+    width: 101%;
+    border: solid 1px #bbb;
+    padding: 1px;
+}
+
+.doctor-info h3 {
+    padding-top: 18px;
+    padding-bottom: 2px;
+    color: #3fbbc0;
+    font-weight: 800;
+}
+
+.doctores hr {
+    color: #333;
+    width: 62px;
+    margin: 0 auto;
+}
+
+.doctores h2 {
+    padding-top: 145px;
+    padding-bottom: 14px;
+    text-align: center;
+}
+
+.doctores p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-bottom: 24px;
+}
+
+.doctores nav {
+    width: 100%;
+    padding-top: 62px;
+}
+
+.doctores nav ul {
+    text-align: left;
+    margin-top: 7px;
+    padding-bottom: 42px;
+    padding-left: 9px;
+}
+
+.doctores nav ul li {
+    border: solid 1px #bbb;
+    border-radius: 3px;
+    margin-right: 8px;
+}
+
+.doctores nav ul li a {
+    padding: 7px 14px;
+    letter-spacing: 1.2px;
+}
+
+.doctores nav>ul>li:last-child a {
+    padding-right: 0;
+}
+
+.doctores nav>ul>li:last-child:after {
+    content: none;
+}
