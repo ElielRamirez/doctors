@@ -1,0 +1,140 @@
+            /*-------------------------------Seccion caracteristicas----------------------->>>>>>>>>>>*/
+            
+            .caracteristicas {
+                width: 100%;
+                display: flex;
+                padding-top: 40px;
+                /* padding-bottom: 50px; */
+            }
+            
+            .caracteristicas article {
+                text-align: center;
+                width: 25%;
+                /* font-family: Arial, Helvetica, sans-serif; */
+            }
+            
+            .caracteristicas article .cont-ico {
+                margin: 28px auto;
+                display: block;
+                background-color: #3fbbc0;
+                border-radius: 50%;
+                padding: 18px;
+                width: 80px;
+                height: 80px;
+                /* margin: 0 0 30px; */
+                margin-top: 40px;
+                margin-bottom: 10px;
+            }
+            
+            .caracteristicas h3 {
+                font-size: 24px;
+                font-weight: 800;
+                /* font-family: Arial, Helvetica, sans-serif; */
+                /* font-size: large; */
+                margin: 10px 0;
+                padding-top: 14px;
+                margin-bottom: 0px;
+            }
+            
+            .caracteristicas p {
+                margin-top: 0px;
+                /* padding-top: 18px;
+                padding-bottom: 72px; */
+                padding-left: 17px;
+                padding-right: 17px;
+                line-height: 24px;
+                padding-bottom: 30px;
+                padding-top: 30px;
+            }
+            
+            .libros {
+                width: 98%;
+                background-color: rgba(246, 245, 248, 1);
+                margin: 0;
+                border: 10px;
+                /* height: 120px; */
+                padding-top: 15px;
+                padding-left: 10px;
+                padding-right: 10px;
+                margin: 0 auto;
+                position: relative;
+                margin-top: 32px;
+                padding-bottom: 44px;
+                border-bottom: solid 2px #ccc;
+            }
+            
+            .libros h2 {
+                font-size: 32px;
+                font-weight: 800;
+                padding-top: 23px;
+                padding-left: 18px;
+            }
+            
+            .libros p {
+                padding-top: 23px;
+                padding-left: 18px;
+            }
+            
+            .libros a {
+                padding: 10px 10px 10px 10px;
+                background-color: #3fbbc0;
+                color: white;
+                font-weight: 800;
+                font-family: Arial;
+                position: absolute;
+                border-radius: 8px;
+                top: 50px;
+                right: 30px;
+                text-decoration: none;
+                margin-right: 9px;
+                margin-top: 11px;
+                padding-left: 18px;
+                padding-right: 18px;
+            }
+            
+            .items-libros {
+                width: 100%;
+                position: relative;
+                font-size: 0;
+            }
+            
+            .items-libros img {
+                display: inline-block;
+                width: 50%;
+                vertical-align: top;
+            }
+            
+            .items-libros ul {
+                display: inline-block;
+                width: 25%;
+                vertical-align: top;
+            }
+            
+            .items-libros ul li a img {
+                display: inline-block;
+                width: 20%;
+                vertical-align: top;
+            }
+            
+            .items-libros ul li a {
+                display: block;
+                font-size: 0;
+            }
+            
+            .items-libros ul li {
+                margin-bottom: 50px;
+                margin-top: 20px;
+            }
+            
+            .cont-contenido {
+                display: inline-block;
+                vertical-align: top;
+                width: 80%;
+                padding: 0 10px;
+            }
+            
+            .cont-contenido h4 {
+                margin-bottom: 5px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: large;
+            }

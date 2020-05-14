@@ -147,11 +147,8 @@
             .sub-menu li {
                 display: block;
             } */
-            
-            */ */
             /*-------------------------------------------------Banner principla----------------------------------------------->>>>>>>>*/
-            
-            .banner-principal {
+            /* .banner-principal {
                 background-image: url('../img/bg-1.jpg');
                 background-size: 100%;
                 background-repeat: no-repeat;
@@ -240,112 +237,7 @@
                 bottom: -120px;
                 right: -100px;
                 left: 900px;
-            }
-            /*-------------------------------Seccion caracteristicas----------------------->>>>>>>>>>>*/
-            
-            .caracteristicas {
-                width: 100%;
-            }
-            
-            .caracteristicas article {
-                width: 24%;
-                display: inline-block;
-                vertical-align: top;
-                padding: 25px;
-                text-align: center;
-                margin: 70px 0;
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            
-            .caracteristicas article .cont-ico {
-                background-color: #3fbbc0;
-                border-radius: 50%;
-                padding: 18px;
-                display: inline-block;
-                width: 80px;
-                height: 80px;
-                margin: 0 0 30px;
-            }
-            
-            .caracteristicas h3 {
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: large;
-                margin: 10px 0;
-            }
-            
-            .libros {
-                width: 90%;
-                background-color: rgb(246, 245, 248);
-                margin: 0;
-                border: 10px;
-                height: 120px;
-                padding-top: 15px;
-                padding-bottom: 15px;
-                padding-left: 10px;
-                padding-right: 10px;
-                margin: 0 auto;
-                position: relative;
-            }
-            
-            .libros a {
-                padding: 10px 10px 10px 10px;
-                background-color: #3fbbc0;
-                color: white;
-                font-weight: 800;
-                font-family: Arial;
-                position: absolute;
-                border-radius: 8px;
-                top: 50px;
-                right: 30px;
-                text-decoration: none;
-            }
-            
-            .items-libros {
-                width: 100%;
-                position: relative;
-                font-size: 0;
-            }
-            
-            .items-libros img {
-                display: inline-block;
-                width: 50%;
-                vertical-align: top;
-            }
-            
-            .items-libros ul {
-                display: inline-block;
-                width: 25%;
-                vertical-align: top;
-            }
-            
-            .items-libros ul li a img {
-                display: inline-block;
-                width: 20%;
-                vertical-align: top;
-            }
-            
-            .items-libros ul li a {
-                display: block;
-                font-size: 0;
-            }
-            
-            .items-libros ul li {
-                margin-bottom: 50px;
-                margin-top: 20px;
-            }
-            
-            .cont-contenido {
-                display: inline-block;
-                vertical-align: top;
-                width: 80%;
-                padding: 0 10px;
-            }
-            
-            .cont-contenido h4 {
-                margin-bottom: 5px;
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: large;
-            }
+            } */
             /*--------------------seccion doctores--------------------------------->>>>>>>>>>>>>........*/
             
             .doctores {
