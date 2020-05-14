@@ -1,13 +1,6 @@
-            @charset "UTF-8";
-            @font-face {
-                font-family: 'roboto-regular';
-                src: url('fonts/roboto-regular-webfont.eot');
-                src: url('fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/roboto-regular-webfont.woff') format('woff'), url('fonts/roboto-regular-webfont.ttf') format('truetype'), url('fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
-                font-weight: normal;
-                font-style: normal;
-            }
+            /* @charset "UTF-8";
             /*-------------------------------------------------------Estilo Universal----------------------------------------->>>>>>>>>*/
-            
+            /*             
             * {
                 margin: 0;
                 padding: 0;
@@ -31,7 +24,7 @@
                 font-size: 2.25rem;
             }
             /*------------------------------------------------Header-------------------------------------->>>*/
-            
+            /*             
             header {
                 background: #ffffff;
                 width: 100%;
@@ -83,10 +76,9 @@
             .logo img {
                 width: 100%;
                 max-width: 150px;
-            }
+            } */
             /*----------------------------------------Barra de navegacion--------------------------------------------->>>>>*/
-            
-            nav {
+            /* nav {
                 width: 80%;
             }
             
@@ -154,7 +146,9 @@
             
             .sub-menu li {
                 display: block;
-            }
+            } */
+            
+            */ */
             /*-------------------------------------------------Banner principla----------------------------------------------->>>>>>>>*/
             
             .banner-principal {

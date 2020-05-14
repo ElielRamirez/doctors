@@ -1,0 +1,135 @@
+            /*-------------------------------------------------Banner principla----------------------------------------------->>>>>>>>*/
+            
+            .banner-principal {
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-position: left center;
+                height: 574px;
+                min-height: 60vh;
+                position: relative;
+            }
+            
+            .banner-principal .overlay {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                filter: blur(6px);
+                /* background: rgba(25, 55, 255, 1); */
+                background-image: url('../img/1.jpg');
+            }
+            
+            .info-banner {
+                width: 100%;
+                position: relative;
+                padding: 48px 0 0;
+                z-index: 99999;
+                padding-top: 59px;
+                padding-left: 10px;
+            }
+            
+            .info-banner h2 {
+                font-size: 2.25rem;
+                color: #666666;
+            }
+            
+            .info-banner p {
+                font-size: 1.75rem;
+                color: #666666;
+                padding-top: 4px;
+            }
+            
+            .datos {
+                width: 48%;
+                background-color: rgba(255, 255, 255, 1);
+                margin: 30px 0 0;
+                padding: 10px;
+                border-radius: 5px;
+                margin-top: 27px;
+                padding-left: 16px;
+                padding-bottom: 2px;
+            }
+            
+            .datos ul {
+                list-style: none;
+            }
+            
+            .datos ul li {
+                padding: 0 0 0 50px;
+                position: relative;
+                margin-top: 11px;
+                margin-bottom: 34px;
+            }
+            
+            .datos ul li:before {
+                content: "";
+                background-image: url('../img/iconos/check.svg');
+                background-repeat: no-repeat;
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                left: 4px;
+                top: 7px;
+            }
+            
+            .datos ul li:last-child {
+                text-align: right;
+            }
+            
+            .datos ul li:last-child::before {
+                content: none;
+            }
+            
+            .datos ul li:last-child a {
+                color: white;
+                padding: 12px 35px 12px 25px;
+                background-color: #3fbbc0;
+                background-image: url('../img/iconos/flecha-boton.svg');
+                background-repeat: no-repeat;
+                border-radius: 10px;
+                background-size: 15px;
+                background-position: 89% center;
+                text-decoration: none;
+                display: inline-block;
+                text-transform: uppercase;
+                font-weight: 700;
+                transition: 0.3s;
+                padding-left: 15px;
+                padding-right: 34px;
+                margin-right: 6px;
+            }
+            
+            .datos ul li:last-child a:hover {
+                background-position: 95%;
+            }
+            
+            .banner-principal {
+                position: relative;
+            }
+            
+            .banner-principal img {
+                position: absolute;
+                position: absolute;
+                top: 65px;
+                width: 552px;
+                left: 51.2%;
+            }
+            
+            .arrow-up {
+                position: absolute;
+                width: 32px;
+                height: 32px;
+                background: #000;
+                bottom: 55px;
+                right: 12px;
+                background-image: url('../img/iconos/flecha-boton.svg');
+                background-repeat: no-repeat;
+                background-size: 14px 14px;
+                background-position: center;
+                transform: rotate(-90deg);
+            }
+            
+            .arrow-up:hover {
+                cursor: pointer;
+                transition: all ease .3s;
+                background-position: 80% center;
+            }
