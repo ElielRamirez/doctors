@@ -1,0 +1,130 @@
+/* .instalaciones {
+    text-align: center;
+}
+
+.instalaciones .contenedor h2 {
+    display: block;
+    padding-top: 146px;
+    padding-bottom: 12px;
+}
+
+.instalaciones p {
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
+/* .instalaciones .instalaciones-img {
+display: flex;
+padding: 0 20px;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 100%;
+border-top-width: 40px;
+padding-top: 47px;
+padding-bottom: 16px;
+}
+
+.instalaciones .instalaciones-img img {
+width: 23.5%;
+} */
+
+.instalaciones hr {
+    color: #333;
+    width: 62px;
+    margin: 22px auto;
+    /* margin-top: 20px; */
+}
+
+
+/*------------------------------------------Slider----------------------------------------------------------*/
+
+.instalaciones .slider {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    margin: 100px 1px;
+    transition: all 300ms;
+    height: 210px;
+    margin-top: 59px;
+    margin-bottom: 0;
+    -webkit-overflow-scrolling: touch;
+    order: 1
+}
+
+.instalaciones .slider ul:hover {
+    /* animation-play-state: paused; */
+}
+
+.instalaciones .slider ul {
+    padding: 0;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    width: 500%;
+    animation-timing-function: 10s;
+    /* animation: change 25s infinite linear; */
+    transition: all 300ms;
+}
+
+.instalaciones .slider li {
+    width: 274px;
+    list-style: none;
+    margin: 10px;
+    height: 50px;
+    padding: 0;
+    transition: all 300ms;
+}
+
+.instalaciones .slider li img {
+    width: 266px;
+    padding: auto;
+    margin: auto;
+    height: 198px;
+    object-fit: cover;
+}
+
+
+/* @keyframes change {
+0% {
+margin-left: -102%;
+}
+25% {
+margin-left: 0%;
+}
+50% {
+margin-left: 0%;
+}
+75% {
+margin-left: -102%;
+}
+100% {
+margin-left: -102%;
+} 
+}*/
+
+
+/*--------------------------------------Fin de Slider-------------------------------------------------------*/
+
+.instalaciones input[name="slider-instalaciones"] {
+    display: none;
+}
+
+.instalaciones input[name="slider-instalaciones"]:checked+.dot {
+    background: #3fbbc0;
+}
+
+
+/* 
+.instalaciones #slider-1:checked~.slider>.carousel {
+    margin-left: 0;
+    /* display: none; */
+
+
+}
+
+/* .instalaciones #slider-2:checked~.slider>.carousel {
+    margin-left: -102%;
+}  */
