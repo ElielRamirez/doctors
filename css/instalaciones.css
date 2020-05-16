@@ -37,9 +37,9 @@
     display: block;
     overflow: hidden;
     width: 100%;
-    margin: 100px 1px;
+    /* margin: 100px 1px; */
     transition: all 2s ease;
-    height: 210px;
+    height: 220px;
     margin-top: 59px;
     margin-bottom: 0;
 }
@@ -47,21 +47,23 @@
 .instalaciones .box-carousel .carousel {
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
     width: 600%;
     transition: all 2s;
+    height: 100%;
 }
 
 .instalaciones .box-carousel .carousel li {
-    width: 274px;
     list-style: none;
-    margin: 10px;
-    height: 50px;
+    margin: 10px 16px;
     padding: 0;
-    /* transition: all 300ms; */
+    /* padding-right: .2%; */
+    width: 3.7%;
 }
 
 .instalaciones .box-carousel .carousel li img {
-    width: 266px;
+    /* width: 266px; */
+    width: 100%;
     padding: auto;
     margin: auto;
     height: 198px;
@@ -72,23 +74,23 @@
 /*---------------------------------Animacion del carousel-------------------------------------------------------------------------------*/
 
 .instalaciones #slider-1:checked~.box-carousel>.carousel {
-    margin-left: 1%;
+    margin-left: 0%;
 }
 
 .instalaciones #slider-2:checked~.box-carousel>.carousel {
-    margin-left: -98%;
+    margin-left: -100%;
 }
 
 .instalaciones #slider-3:checked~.box-carousel>.carousel {
-    margin-left: -196.5%;
+    margin-left: -200%;
 }
 
 .instalaciones #slider-4:checked~.box-carousel>.carousel {
-    margin-left: -295%;
+    margin-left: -300%;
 }
 
 .instalaciones #slider-5:checked~.box-carousel>.carousel {
-    margin-left: -393.8%;
+    margin-left: -400%;
 }
 
 .instalaciones #slider-6:checked~.box-carousel>.carousel {
