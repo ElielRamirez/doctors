@@ -1,0 +1,110 @@
+    /*----------------------------------------Barra de navegacion--------------------------------------------->>>>>*/
+    
+    .testimonios {
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        /* background-image: url(../img/overlay.png); */
+        background-repeat: no-repeat;
+        background-position: top center;
+        color: #fff;
+        background-size: contain;
+        background-size: 100% 13.2%;
+    }
+    
+    .overlay {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 13.2%;
+        background: rgba(0, 0, 0, .3);
+        z-index: 0;
+    }
+    
+    .testimonios .contenedor {
+        z-index: 1;
+    }
+    
+    .testimonios .overlay .rotador-testimonios {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 13.8% 1%;
+    }
+    
+    .testimonios .overlay .rotador-testimonios-item {
+        display: block;
+        width: 31.5%;
+        color: #333;
+        color: #fff;
+    }
+    
+    .testimonios .overlay .rotador-testimonios-item .comentario {
+        background: rgba(255, 255, 255, 1);
+        border-radius: 8px;
+    }
+    
+    .testimonios .overlay .rotador-testimonios-item h4 {
+        padding: 12px 16px;
+        font-size: 23px;
+        font-weight: 600;
+        color: #333;
+    }
+    
+    .testimonios .overlay .rotador-testimonios-item .comentario>div {
+        padding: 4px 17px;
+        color: #333;
+    }
+    
+    .testimonios .overlay .rotador-testimonios-item .comentario>p {
+        padding: 13px 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        padding-bottom: 37px;
+        color: #333;
+    }
+    
+    .testimonios .overlay .rotador-testimonios-item>img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 28px;
+        /* border: solid 1px #fff; */
+        border-radius: 100%;
+    }
+    
+    .testimonios .overlay .rotador-testimonios-item>h3 {
+        text-align: center;
+        padding-top: 13px;
+        padding-bottom: 5px;
+        font-size: 16px;
+        font-weight: bolder;
+        letter-spacing: .5px;
+    }
+    
+    .testimonios .overlay .rotador-testimonios-item>span {
+        display: block;
+        text-align: center;
+    }
+    
+    .testimonios .overlay .ec-stars-wrapper {
+        display: inline-block;
+        font-size: 0;
+    }
+    
+    .testimonios .overlay .ec-stars-wrapper a {
+        text-decoration: none;
+        display: inline-block;
+        font-size: 32px;
+        font-size: 2rem;
+        color: #888;
+    }
+    
+    .testimonios .overlay .ec-stars-wrapper:hover a {
+        color: rgb(230, 230, 23);
+    }
+    
+    .testimonios .overlay .ec-stars-wrapper>a:hover~a {
+        color: #888;
+    }
