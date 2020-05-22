@@ -46,6 +46,20 @@
         border-radius: 8px;
     }
     
+    .testimonios .overlay .rotador-testimonios-item .comentario::after {
+        position: absolute;
+        display: block;
+        content: "";
+        width: 0;
+        height: 0;
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        border-bottom: 50px solid red;
+        z-index: 999;
+        margin-left: 8.8%;
+        box-shadow: 0px 3px 0px 0px #000;
+    }
+    
     .testimonios .overlay .rotador-testimonios-item h4 {
         padding: 12px 16px;
         font-size: 23px;
@@ -62,14 +76,14 @@
         padding: 13px 16px;
         line-height: 24px;
         letter-spacing: 0.1px;
-        padding-bottom: 37px;
+        padding-bottom: 14px;
         color: #333;
     }
     
     .testimonios .overlay .rotador-testimonios-item>img {
         display: block;
         margin: 0 auto;
-        margin-top: 28px;
+        margin-top: 50px;
         /* border: solid 1px #fff; */
         border-radius: 100%;
     }
