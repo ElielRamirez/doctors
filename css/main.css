@@ -5,6 +5,7 @@
 @import url(doctors.css);
 @import url(instalaciones.css);
 @import url(testimonios.css);
+@import url(price-table.css);
 * {
     margin: 0;
     padding: 0;

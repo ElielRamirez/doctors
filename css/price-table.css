@@ -1,0 +1,132 @@
+.paquetes .title {
+    display: block;
+    text-align: center;
+    font-size: 2.25rem;
+}
+
+.paquetes .description {
+    display: block;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.table-package {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.table-package .package {
+    box-shadow: 0px 0px 24px 7px #666;
+    width: 30.5%;
+    margin-top: 70px;
+    border-radius: 3px;
+}
+
+.table-package .package-header {
+    display: block;
+    background: #676767;
+    color: #fff;
+    text-align: center;
+    padding-top: 26px;
+    padding-bottom: 28px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.table-package .package-price {
+    width: 100%;
+    /* height: 60px; */
+}
+
+.table-package .package .package-price .price {
+    padding-top: 30px;
+    background: #454545;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 33px;
+    font-weight: 800;
+    background: #000;
+    letter-spacing: .8px;
+}
+
+.table-package .package .package-price .price span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.table-package .package .package-desc {
+    background: #fff;
+    padding-bottom: 25px;
+    padding-left: 23%;
+    padding-top: 26px;
+    padding-right: 42px;
+}
+
+.table-package .package .package-desc .item-paquetes li {
+    padding-top: 19px;
+    padding-bottom: 16px;
+    border-bottom: dotted 1px #666;
+    font-weight: 400;
+}
+
+.table-package .package .package-footer {
+    background-color: #fafafa;
+    /* margin: 1rem; */
+    /* padding: 1rem; */
+    /* border: 2px solid #ccc; */
+    /* IMPORTANTE */
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 38px;
+}
+
+.table-package .package .package-footer a {
+    background: rgba(75, 204, 209, 1);
+    text-decoration: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-weight: 800;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1.5px;
+}
+
+.table-package .package:nth-child(2) {
+    z-index: 9999;
+    box-shadow: none;
+    margin-top: 30px;
+    /* opacity: .5; */
+}
+
+.table-package .package:nth-child(2) .package-header {
+    /* border: solid 1px red; */
+    background: #40bbc0
+}
+
+.table-package .package:nth-child(2) .package-price {
+    /* border: solid 1px red; */
+    background: #4bccd1;
+    padding-top: 45px;
+    /* padding-bottom: 15px; */
+}
+
+.table-package .package:nth-child(2) .package-price .price {
+    /* color: red; */
+    background: none;
+    padding-top: 0px;
+    padding-bottom: 52px;
+}
+
+.table-package .package:nth-child(2) .package-footer {
+    background: #40bbc0;
+}
