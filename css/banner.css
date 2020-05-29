@@ -156,4 +156,7 @@
                 .datos {
                     width: 100%;
                 }
+                .arrow-up {
+                    bottom: 5px
+                }
             }

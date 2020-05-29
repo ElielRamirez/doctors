@@ -33,6 +33,7 @@
 
 .asociados .flex {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    /* justify-content: ; */
     padding-top: 61px;
 }

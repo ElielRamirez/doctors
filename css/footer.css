@@ -9,6 +9,7 @@ footer img {}
 
 footer .flex {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 47px;
 }
@@ -60,6 +61,7 @@ footer .flex .column .desc {
 
 .flex.social-media {
     padding-top: 8px;
+    flex-wrap: wrap;
     justify-content: initial;
 }
 
