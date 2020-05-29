@@ -166,6 +166,7 @@
                 nav {
                     width: 100%;
                     background: transparent;
+                    display: none;
                 }
                 .menu+nav ul {
                     text-align: left;

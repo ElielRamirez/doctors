@@ -112,9 +112,8 @@
             
             .banner-principal img {
                 position: absolute;
-                position: absolute;
-                top: 65px;
-                width: 552px;
+                bottom: 0px;
+                max-width: 598px;
                 left: 51.2%;
             }
             

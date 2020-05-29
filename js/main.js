@@ -1,9 +1,12 @@
 window.onload = () => {
     let menu = document.getElementById('menu')
     let navbar = document.getElementById("navbar")
-        /*
-         * Metodo que muetra u oculta el menu de navegacion
-         */
+    let ancho = window.innerWidth;
+
+
+    /*
+     * Metodo que muetra u oculta el menu de navegacion
+     */
     menu.addEventListener("click", function() {
         if (navbar.style.display === 'block' || navbar.style.display === 'inline-block') {
             navbar.style.display = 'none';
