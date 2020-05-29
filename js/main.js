@@ -1,32 +1,31 @@
-window.onload=()=>{
-    let menu_mas = document.getElementById('menu-mas')
-    let sub_menu= document.getElementById('sub-menu')
-    menu_mas.addEventListener('click',function(e){
-        e.preventDefault()
-         sub_menu.style.display='block'
-        // sub_menu.style.position='relative'
+window.onload = () => {
+    let menu = document.getElementById('menu')
+    let navbar = document.getElementById("navbar")
+        /*
+         * Metodo que muetra u oculta el menu de navegacion
+         */
+    menu.addEventListener("click", function() {
+        if (navbar.style.display === 'block' || navbar.style.display === 'inline-block') {
+            navbar.style.display = 'none';
+        } else {
+            navbar.style.display = 'inline-block';
+        }
+    });
 
-         
-    // console.log(sub_menu)
+    function reportWindowSize() {
+        ancho = window.innerWidth;
+        if (ancho >= 1024) {
+            navbar.style.display = 'inline-block';
+            let listas = document.querySelector('nav ul li');
+            listas.style.display = 'inline-block'
 
-        // alert('click')
-    })
+        } else {
+            navbar.style.display = 'none';
 
-    function verEspecilidad(especilidad){
-        // let doctores = document.getElementsByClassName('doctor-info')
-        // str_doctores = JSON.stringify(doctores)
-        // console.log(str_doctores.lenght.toInteger())
-
-
-        // // console.log(str_doctores.l)
-
-
-        // // JSON.parse(doctores)     
-        // console.log(doctoresjson)
-
+        }
 
     }
-verEspecilidad("especialidad")
 
-    
+    window.onresize = reportWindowSize;
+
 }

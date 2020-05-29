@@ -1,0 +1,38 @@
+.asociados {
+    background: #fff;
+    padding-bottom: 61px;
+}
+
+.asociados .title {
+    display: block;
+    text-align: center;
+    font-size: 2.25rem;
+    display: block;
+    padding-top: 146px;
+    padding-bottom: 12px;
+}
+
+.asociados .description {
+    display: block;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.asociados hr {
+    /* border-color: #888888; */
+    width: 62px;
+    margin: 22px auto;
+}
+
+.asociados .flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 61px;
+}

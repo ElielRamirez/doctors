@@ -7,6 +7,7 @@
     <title>Proyecto Semillero 2020</title>
     <!-- <link type="text/css" rel="stylesheet" href="css/style.css"> -->
     <link type="text/css" rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 
 <body>
@@ -24,36 +25,39 @@
                         <img src="img/logo.png" alt="">
                     </h1>
                 </div>
-                <nav>
+                <div id="menu" class="menu">
+                    <span><i class="fas fa-bars"></i></span>
+                </div>
+                <nav id="navbar">
                     <ul>
                         <li>
-                            <a href="">Home</a>
+                            <a href="#">Home</a>
                         </li>
                         <li>
-                            <a href="">Service</a>
+                            <a href="#">Service</a>
                         </li>
                         <li>
-                            <a href="">Doctors</a>
+                            <a href="#">Doctors</a>
                         </li>
                         <li>
-                            <a href="">Facilities</a>
+                            <a href="#">Facilities</a>
                         </li>
                         <li>
-                            <a href="">Pricing</a>
+                            <a href="#">Pricing</a>
                         </li>
                         <li>
                             <span>Extra</span>
                             <a id="menu-mas" href="#">More</a>
                             <ul id="sub-menu" class="sub-menu">
                                 <li>
-                                    <a href="">Home cta</a>
+                                    <a href="#">Home cta</a>
 
                                 </li>
                                 <li>
-                                    <a href="">Home form</a>
+                                    <a href="#">Home form</a>
                                 </li>
                                 <li>
-                                    <a href="">Home video</a>
+                                    <a href="#">Home video</a>
                                 </li>
                             </ul>
                         </li>
@@ -83,7 +87,7 @@
                             <br>Lorem ipsum dolor sit amet, in verterem persecuti vix, sit te meis
                         </li>
                         <li>
-                            <a href="">learn more</a>
+                            <a href="#">learn more</a>
                         </li>
                     </ul>
                 </div>
@@ -128,13 +132,13 @@
             <div class="libros">
                 <h2>In an emergency? Need help now?</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit uisque interdum ante eget faucibus.</p>
-                <a href="">Book an appoinment</a>
+                <a href="#">Book an appoinment</a>
             </div>
             <div class="items-libros">
                 <img src="img/img-1.jpg" alt="">
                 <ul>
                     <li>
-                        <a href="">
+                        <a href="#">
                             <img src="img/iconos/estetoscopio.svg" alt="">
                             <div class="cont-contenido">
                                 <h4>Medical checkup</h4>
@@ -144,7 +148,7 @@
                     </li>
 
                     <li>
-                        <a href="">
+                        <a href="#">
                             <img src="img/iconos/servicios-enfermera.svg" alt="">
                             <div class="cont-contenido">
                                 <h4>Nursing Services</h4>
@@ -153,7 +157,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="#">
                             <img src="img/iconos/icono-cruz.svg" alt="">
                             <div class="cont-contenido">
                                 <h4>Pharmacy</h4>
@@ -164,7 +168,7 @@
                 </ul>
                 <ul>
                     <li>
-                        <a href="">
+                        <a href="#">
                             <img src="img/iconos/icono-hospital.svg" alt="">
                             <div class="cont-contenido">
                                 <h4>Gyn Care</h4>
@@ -173,7 +177,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="#">
                             <img src="img/iconos/filtro.svg" alt="">
                             <div class="cont-contenido">
                                 <h4>Neurology</h4>
@@ -182,7 +186,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="#">
                             <img src="img/iconos/doctor-color.svg" alt="">
                             <div class="cont-contenido">
                                 <h4>Sleep Center</h4>
@@ -202,16 +206,16 @@
             <nav class="contador-rotador">
                 <ul>
                     <li>
-                        <a href="">ALL(4)</a>
+                        <a href="#">ALL(4)</a>
                     </li>
                     <li>
-                        <a href="">CARDIOLOGIST(2)</a>
+                        <a href="#">CARDIOLOGIST(2)</a>
                     </li>
                     <li>
-                        <a href="">PSYCHIATRIST(1)</a>
+                        <a href="#">PSYCHIATRIST(1)</a>
                     </li>
                     <li>
-                        <a href="">NEUROLOGIST(1)</a>
+                        <a href="#">NEUROLOGIST(1)</a>
                     </li>
                 </ul>
             </nav>
@@ -340,6 +344,7 @@
         <div class="contenedor">
             <h2 class="title">Health packages</h2>
             <p class="description">Take charge of your health today with our specially designed health packages</p>
+            <hr>
             <div class="table-package">
 
                 <div class="package">
@@ -351,14 +356,14 @@
                     </div>
                     <div class="package-desc">
                         <ul class="item-paquetes">
-                            <li>Anthropometry (BMI, WH Ratio)</li>
-                            <li>Post Examination Review</li>
-                            <li>General Screening – Basic</li>
-                            <li>Body Composition Analysis</li>
+                            <li>Anthropometry (BMI, WH Ratio)<i class="fas fa-check "></i></li>
+                            <li>Post Examination Review<i class="fas fa-check "></i></li>
+                            <li>General Screening – Basic<i class="fas fa-check"></i></li>
+                            <li class="disabled">Body Composition Analysis<i class="fas fa-times"></i></li>
                         </ul>
                     </div>
                     <div class="package-footer">
-                        <a href="">purchase</a>
+                        <a href="#">purchase</a>
                     </div>
                 </div>
                 <div class="package">
@@ -370,15 +375,15 @@
                     </div>
                     <div class="package-desc">
                         <ul class="item-paquetes">
-                            <li>Anthropometry (BMI, WH Ratio)</li>
-                            <li>Post Examination Review</li>
-                            <li>General Screening – Basic</li>
-                            <li>Body Composition Analysis</li>
-                            <li>Body Composition Analysis</li>
+                            <li>Anthropometry (BMI, WH Ratio)<i class="fas fa-check "></i></li>
+                            <li>Post Examination Review<i class="fas fa-check "></i></li>
+                            <li>General Screening – Basic<i class="fas fa-check "></i></li>
+                            <li>Body Composition Analysis<i class="fas fa-check "></i></li>
+                            <li>Body Composition Analysis<i class="fas fa-check "></i></li>
                         </ul>
                     </div>
                     <div class="package-footer">
-                        <a href="">purchase</a>
+                        <a href="#">purchase</a>
                     </div>
                 </div>
 
@@ -391,145 +396,116 @@
                     </div>
                     <div class="package-desc">
                         <ul class="item-paquetes">
-                            <li>Anthropometry (BMI, WH Ratio)</li>
-                            <li>Post Examination Review</li>
-                            <li>General Screening – Basic</li>
-                            <li>Body Composition Analysis</li>
+                            <li>Anthropometry (BMI, WH Ratio)<i class="fas fa-check "></i></li>
+                            <li>Post Examination Review<i class="fas fa-check "></i></li>
+                            <li>General Screening – Basic<i class="fas fa-check "></i></li>
+                            <li class="disabled">Body Composition Analysis<i class="fas fa-times"></i></li>
                         </ul>
                     </div>
                     <div class="package-footer">
-                        <a href="">purchase</a>
+                        <a href="#">purchase</a>
                     </div>
                 </div>
-                <!-- <div class="package">
-                    <div class="package-header"></div>
-                    <div class="package-price"></div>
-                    <div class="package-desc"></div>
-                    <div class="package-footer"></div>
-                </div>
-                <div class="package">
-                    <div class="package-header"></div>
-                    <div class="package-price"></div>
-                    <div class="package-desc"></div>
-                    <div class="package-footer"></div>
-                </div>
-                <div class="paquete-1">
-                    <p class="nombre-paquete">Basic Fit 1 Package</p>
-                    <div class="precio">
-                        <p>$33<sup>.99</sup>/ one time</p>
-                    </div>
-                    <ul class="item-paquetes">
-                        <li>Anthropometry (BMI, WH Ratio)</li>
-                        <li>Post Examination Review</li>
-                        <li>General Screening – Basic</li>
-                        <li>Health Screening Report</li>
-                    </ul>
-                    <a href="">purchase</a>
-                </div>
-                <div class="paquete-glow">
-                    <div class="precio">
-                    </div>
-
-                </div>
-                <div class="paquete-2">
-                    <p class="nombre-paquete">Basic Fit 2 Package</p>
-                    <div class="precio">
-                        <p>$47<sup>.99</sup>/ one time</p>
-                    </div>
-                    <ul class="item-paquetes">
-                        <li>Anthropometry (BMI, WH Ratio)</li>
-                        <li>Post Examination Review</li>
-                        <li>General Screening – Basic</li>
-                        <li>Health Screening Report</li>
-                    </ul>
-                    <a href="">purchase</a>
-                </div> -->
             </div>
         </div>
     </section>
-    <!--<section class="asociados">
+    <section class="asociados">
         <div class="contenedor">
-            <h2>Our partner</h2>
-            <p>Take charge of your health today with our specially designed health packages</p>
-            <ul>
+            <h2 class="title">Our partner</h2>
+            <p class="description">Take charge of your health today with our specially designed health packages</p>
+            <hr>
+            <ul class="flex">
                 <li>
-                    <a href=""><img src="img/partner-1.jpg" alt="imagen-1"></a>
+                    <a href="#"><img src="img/partner-1.jpg" alt="imagen-1"></a>
                 </li>
                 <li>
-                    <a href=""><img src="img/partner-2.jpg" alt="imagen-2"></a>
+                    <a href="#"><img src="img/partner-2.jpg" alt="imagen-2"></a>
                 </li>
                 <li>
-                    <a href=""><img src="img/partner-3.jpg" alt="imagen-3"></a>
+                    <a href="#"><img src="img/partner-3.jpg" alt="imagen-3"></a>
                 </li>
                 <li>
-                    <a href=""><img src="img/partner-4.jpg" alt="imagen-4"></a>
+                    <a href="#"><img src="img/partner-4.jpg" alt="imagen-4"></a>
                 </li>
             </ul>
         </div>
     </section>
     <footer>
-        <div class="gris">
-            <div class="contenedor">
-                <div class="item-footer">
-                    <h4>About SystemDNS</h4>
-                    <p>Lorem ipsum dolor sit amet, ne nam purto nihil impetus, an facilisi accommodare sea</p>
-                    <br>
-                    <h4>Information</h4>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Laboratory</a></li>
-                        <li><a href="#">Medical treatment</a></li>
-                        <li><a href="#">Terms & conditions</a></li>
+        <div class="contenedor">
+            <div class="flex">
+                <div class="column">
+                    <h4 class="title">About SystemDNS</h4>
+                    <p class="desc">Lorem ipsum dolor sit amet, ne nam purto nihil impetus, an facilisi accommodare sea</p>
+                    <h4 class="title">Information</h4>
+                    <ul class="info-links">
+                        <li class="link-item"><a class="link" href="#">Home</a></li>
+                        <li class="link-item"><a class="link" href="#">Laboratory</a></li>
+                        <li class="link-item"><a class="link" href="#">Medical treatment</a></li>
+                        <li class="link-item"><a class="link" href="#">Terms & conditions</a></li>
                     </ul>
                 </div>
-                <div class="item-footer">
-                    <h4>SystemDNS center</h4>
-                    <p>Nam leo lorem, tincidunt id risus ut, ornare tincidunt naqunc sit amet.</p>
-                    <br>
-                    <ul>
-                        <li><a href="#"><span><img src="img/iconos/calendario.svg" alt=""></span>Monday - Saturday, 8am to 10pm</a>
-                            </li>
-                            <li><a href="tel:0888904711"><span><img src="img/iconos/telefono.svg" alt=""></span>+62 0888 904 711</a></li>
-                            <li><a href="mailto:hello@SystemDNS.com"><span><img src="img/iconos/correo.svg" alt=""></span>hello@SystemDNS.com</a></li>
-                            </ul>
-                    </div>
-                    <div class="item-footer">
-                        <h4>Our location</h4>
-                        <p>The Suithouse V303, Kuningan City, Jakarta Indonesia 12940</p>
-                        <br>
-                        <h4>Follow us</h4>
-                        <ul>
-                            <li class="facebook">
-                                <a href="#"><img src="img/iconos/facebook.svg" alt="Facebook"></a>
-                            </li>
-                            <li class="twitter">
-                                <a href="#"><img src="img/iconos/twitter.svg" alt="Twitter"></a>
-                            </li>
-                            <li class="google">
-                                <a href="#"><img src="img/iconos/google-plus.svg" alt="Google"></a>
-                            </li>
-                            <li class="vimeo">
-                                <a href="#"><img src="img/iconos/vimeo.svg" alt="Vimeo"></a>
-                            </li>
-                            <li class="dribbble">
-                                <a href="#"><img src="img/iconos/dribble.svg" alt="Dribbble"></a>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="column">
+                    <h4 class="title">SystemDNS center</h4>
+                    <p class="desc">Nam leo lorem, tincidunt id risus ut, ornare tincidunt naqunc sit amet.</p>
+
+                    <ul class="contact">
+                        <li class="contact-item">
+                            <img class="icon" src="./img/iconos/calendario.svg" alt="">
+                            <span class="contact-item-txt"> Monday - Saturday, 8am to 10pm</span>
+
+                        </li>
+                        <li class="contact-item">
+                            <img class="icon" src="./img/iconos/telefono.svg" alt="">
+                            <span class="contact-item-txt">+62 0888 904 711</span>
+                        </li>
+                        <li class="contact-item">
+                            <a href="mailto:hello@SystemDNS.com">
+                                <img class="icon" src="./img/iconos/correo.svg" alt="">
+                                <span class="contact-item-txt">hello@SystemDNS.com</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h4 class="title">Our location</h4>
+                    <p class="desc">The Suithouse V303, Kuningan City, Jakarta Indonesia 12940</p>
+
+                    <h4 class="title">Follow us</h4>
+                    <ul class="flex social-media">
+                        <li class="facebook bg-facebook">
+                            <a href="#"><img src="./img/iconos/facebook.svg" alt="Facebook"></a>
+                        </li>
+                        <li class="twitter bg-twitter">
+                            <a href="#"><img src="./img/iconos/twitter.svg" alt="Twitter"></a>
+                        </li>
+                        <li class="google bg-google">
+                            <a href="#"><img src="./img/iconos/google-plus.svg" alt="Google"></a>
+                        </li>
+                        <li class="vimeo bg-vimeo">
+                            <a href="#"><img src="./img/iconos/vimeo.svg" alt="Vimeo"></a>
+                        </li>
+                        <li class="dribble bg-dribble">
+                            <a href="#"><img src="./img/iconos/dribble.svg" alt="Dribbble"></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="white">
-                <div class="contenedor">
-                    <div class="left">
-                        <p>&copy;Copyright - ProOnliPc Theme. All rights reserved.</p>
-                    </div>
-                    <div class="right">
-                        <a href="#">ProOnliPc Education Templates</a>
-                        <p>by ProOnliPc</p>
-                    </div>
+        </div>
+
+    </footer>
+    <div class="copy">
+        <div class="contenedor">
+            <div class="flex">
+                <div class="">
+                    <p>&copy;Copyright - ProOnliPc Theme. All rights reserved.</p>
+                </div>
+                <div class="">
+                    <a href="#">ProOnliPc Education Templates</a>
+                    <p>by ProOnliPc</p>
                 </div>
             </div>
-            </footer> -->
+        </div>
+    </div>
 </body>
 <script src="js/jquery.js"></script>
 <script src="js/main.js"></script>

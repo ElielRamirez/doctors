@@ -136,3 +136,24 @@
                 transition: all ease .3s;
                 background-position: 80% center;
             }
+            
+            @media screen and (max-width:1024px) {
+                .banner-principal img {
+                    display: none;
+                }
+                .datos {
+                    width: 70%;
+                    margin: 30px auto;
+                    padding-right: 18px;
+                }
+                .info-banner h2,
+                .info-banner p {
+                    text-align: center;
+                }
+            }
+            
+            @media screen and (max-width:768px) {
+                .datos {
+                    width: 100%;
+                }
+            }

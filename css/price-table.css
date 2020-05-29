@@ -1,7 +1,15 @@
+.paquetes {
+    background: #fafafa;
+    padding-bottom: 61px;
+}
+
 .paquetes .title {
     display: block;
     text-align: center;
     font-size: 2.25rem;
+    display: block;
+    padding-top: 146px;
+    padding-bottom: 12px;
 }
 
 .paquetes .description {
@@ -17,17 +25,27 @@
     padding-bottom: 2px;
 }
 
+.paquetes hr {
+    /* border-color: #888888; */
+    width: 62px;
+    margin: 22px auto;
+}
+
 .table-package {
+    /* height:240px; */
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: rowwrap;
+    /* border: solid 1px red; */
     justify-content: center;
+    align-items: center;
 }
 
 .table-package .package {
-    box-shadow: 0px 0px 24px 7px #666;
-    width: 30.5%;
-    margin-top: 70px;
-    border-radius: 3px;
+    margin-top: 18px;
+    width: 30%;
+    /* border: solid 1px; */
+    /* opacity: .5; */
+    box-shadow: 0px 0px 6px 0px #888;
 }
 
 .table-package .package-header {
@@ -35,7 +53,7 @@
     background: #676767;
     color: #fff;
     text-align: center;
-    padding-top: 26px;
+    padding-top: 27px;
     padding-bottom: 28px;
     font-size: 17px;
     font-weight: 400;
@@ -43,18 +61,18 @@
 
 .table-package .package-price {
     width: 100%;
+    background: #000;
+    background: #454545;
     /* height: 60px; */
 }
 
 .table-package .package .package-price .price {
     padding-top: 30px;
-    background: #454545;
     padding-bottom: 30px;
     text-align: center;
     color: #fff;
     font-size: 33px;
     font-weight: 800;
-    background: #000;
     letter-spacing: .8px;
 }
 
@@ -66,9 +84,13 @@
 .table-package .package .package-desc {
     background: #fff;
     padding-bottom: 25px;
-    padding-left: 23%;
-    padding-top: 26px;
-    padding-right: 42px;
+    padding-left: 21%;
+    padding-top: 6%;
+    padding-right: 11%;
+}
+
+.table-package .package .package-desc .item-paquetes {
+    /* display: inline-block; */
 }
 
 .table-package .package .package-desc .item-paquetes li {
@@ -76,6 +98,10 @@
     padding-bottom: 16px;
     border-bottom: dotted 1px #666;
     font-weight: 400;
+}
+
+.table-package .package .package-desc .item-paquetes li i {
+    float: right;
 }
 
 .table-package .package .package-footer {
@@ -101,32 +127,54 @@
     letter-spacing: 1.5px;
 }
 
+
+/*------------------------------Elemento central--------------------------------------------*/
+
+
+/* .table-package .prefer {
+    /* box-shadow: none;
+     */
+
+
+/* opacity: .5; */
+
+
+/* line-height: 6.5rem; 
+
+
+}
+*/
+
 .table-package .package:nth-child(2) {
-    z-index: 9999;
-    box-shadow: none;
     margin-top: 30px;
-    /* opacity: .5; */
+    z-index: 9999;
+    width: 30.5%;
+    box-shadow: 0px 16px 40px 0px #888;
 }
 
 .table-package .package:nth-child(2) .package-header {
-    /* border: solid 1px red; */
-    background: #40bbc0
+    background: #40bbc0;
 }
 
 .table-package .package:nth-child(2) .package-price {
-    /* border: solid 1px red; */
+    padding-top: 18px;
+    padding-bottom: 21px;
     background: #4bccd1;
-    padding-top: 45px;
-    /* padding-bottom: 15px; */
-}
-
-.table-package .package:nth-child(2) .package-price .price {
-    /* color: red; */
-    background: none;
-    padding-top: 0px;
-    padding-bottom: 52px;
 }
 
 .table-package .package:nth-child(2) .package-footer {
     background: #40bbc0;
+}
+
+.disabled {
+    text-decoration: line-through;
+    color: rgba(222, 222, 222);
+}
+
+.fa-check {
+    color: #7db53c;
+}
+
+.fa-times {
+    color: #e24f48;
 }
