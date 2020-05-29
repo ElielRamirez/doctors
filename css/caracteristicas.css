@@ -183,7 +183,7 @@
             
             @media screen and (max-width:425px) {
                 .caracteristicas article {
-                    width: 100%;
+                    width: 100%!important;
                 }
             }
             
@@ -197,9 +197,9 @@
                 }
                 .items-libros ul {
                     display: block;
-                    width: 100%;
-                    margin-left: auto;
-                    margin-right: auto;
+                    width: 100% !important;
+                    /* margin-left: auto;
+                    margin-right: auto; */
                 }
                 .items-libros ul li {
                     margin: 0 auto;

@@ -4,9 +4,10 @@
                 background-size: 100%;
                 background-repeat: no-repeat;
                 background-position: left center;
-                height: 574px;
+                /* height: 574px; */
                 min-height: 60vh;
                 position: relative;
+                padding-bottom: 30px;
             }
             
             .banner-principal .overlay {

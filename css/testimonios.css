@@ -129,3 +129,12 @@
 .testimonios .overlay .ec-stars-wrapper>a:hover~a {
     color: #888;
 }
+
+@media screen and (max-width:768px) {
+    .testimonios .overlay .rotador-testimonios-item {
+        width: 80%;
+    }
+    .testimonios .overlay .rotador-testimonios {
+        justify-content: center;
+    }
+}

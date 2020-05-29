@@ -34,6 +34,6 @@
 .asociados .flex {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: ; */
+    justify-content: center;
     padding-top: 61px;
 }
